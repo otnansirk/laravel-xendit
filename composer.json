@@ -1,0 +1,41 @@
+{
+    "name": "otnansirk/laravel-xendit",
+    "description": "This Laravel wrapper for Xendit Payment API",
+    "keywords": [
+        "otnansirk",
+        "laravel-xendit",
+        "xendit Laravel",
+        "payment gateway",
+        "dana payment gateway",
+        "payment"
+    ],
+    "support": {
+        "issues": "https://github.com/otnansirk/laravel-xendit/issues",
+        "source": "https://github.com/otnansirk/laravel-xendit"
+    },
+    "authors": [
+        {
+            "name": "otnansirk",
+            "email": "iam.otnansirk@gmail.com"
+        }
+    ],
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "^9.19 || ^10.0 || ^11.0 || ^12.0",
+        "xendit/xendit-php": "^6.2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Otnansirk\\Xendit\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Otnansirk\\Xendit\\XenditServiceProvider"
+            ]
+        }
+    }
+}
