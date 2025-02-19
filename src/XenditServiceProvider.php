@@ -1,6 +1,6 @@
 <?php
 
-namespace Otnansirk\Dana;
+namespace Otnansirk\Xendit;
 
 use Illuminate\Support\ServiceProvider;
 use Xendit\Configuration;
@@ -15,7 +15,7 @@ class XenditServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('XenditInvoice', \Otnansirk\Xendit\Services\Invoice::class);
+        $this->app->bind('Xendit', \Otnansirk\Xendit\Services\Xendit::class);
     }
 
     /**
@@ -25,8 +25,7 @@ class XenditServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-
-        Configuration::setXenditKey("YOUR_API_KEY_HERE");
+        Configuration::setXenditKey(config("xendit.private_key"));
         
         $this->publishes([
             __DIR__ . '/../config/xendit.php' => config_path('xendit.php'),
