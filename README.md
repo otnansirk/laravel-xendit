@@ -1,8 +1,11 @@
 # Laravel Xendit
-This Laravel wrapper/library for Xendit payment gateway. </br>
+#### This Laravel wrapper/library for Xendit payment gateway.
 Visit https://xendit.co for more information about the product and see documentation at https://developers.xendit.co for more technical details.
+<hr/>
+Laravel Xendit use the [Xendit PHP SDK](https://packagist.org/packages/xendit/xendit-php)
+</br>
+You can also check out the [documentation](https://github.com/xendit/xendit-php/blob/master/README.md) for Xendit PHP SDK.
 
-Thanks to [Xendit PHP SDK](https://packagist.org/packages/xendit/xendit-php)</br>
 All URIs are relative to https://api.xendit.co, except if the operation defines another base path.
 
 # Installation
