@@ -1,6 +1,6 @@
 # Balance
 
-You can use the APIs below to interface with Xendit's `BalanceApi`.
+You can use the APIs below to interface with Xendit's `Balance`.
 
 ```php
 <?php
@@ -13,7 +13,7 @@ All URIs are relative to https://api.xendit.co, except if the operation defines 
 
 | Method | HTTP request | Description |
 | ------------- | ------------- | ------------- |
-| [**getBalance()**](BalanceApi.md#getbalance-function) | **GET** /balance | Retrieves balances for a business, default to CASH type |
+| [**getBalance()**](Balance.md#getbalance-function) | **GET** /balance | Retrieves balances for a business, default to CASH type |
 
 
 ## `getBalance()` Function

@@ -14,10 +14,10 @@ All URIs are relative to https://api.xendit.co, except if the operation defines 
 
 | Method | HTTP request | Description |
 | ------------- | ------------- | ------------- |
-| [**createCustomer()**](CustomerApi.md#createcustomer-function) | **POST** /customers | Create Customer |
-| [**getCustomer()**](CustomerApi.md#getcustomer-function) | **GET** /customers/{id} | Get Customer By ID |
-| [**getCustomerByReferenceID()**](CustomerApi.md#getcustomerbyreferenceid-function) | **GET** /customers | GET customers by reference id |
-| [**updateCustomer()**](CustomerApi.md#updatecustomer-function) | **PATCH** /customers/{id} | Update End Customer Resource |
+| [**createCustomer()**](Customer.md#createcustomer-function) | **POST** /customers | Create Customer |
+| [**getCustomer()**](Customer.md#getcustomer-function) | **GET** /customers/{id} | Get Customer By ID |
+| [**getCustomerByReferenceID()**](Customer.md#getcustomerbyreferenceid-function) | **GET** /customers | GET customers by reference id |
+| [**updateCustomer()**](Customer.md#updatecustomer-function) | **PATCH** /customers/{id} | Update End Customer Resource |
 
 
 ## `createCustomer()` Function

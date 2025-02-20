@@ -14,10 +14,10 @@ All URIs are relative to https://api.xendit.co, except if the operation defines 
 
 | Method | HTTP request | Description |
 | ------------- | ------------- | ------------- |
-| [**createInvoice()**](InvoiceApi.md#createinvoice-function) | **POST** /v2/invoices/ | Create an invoice |
-| [**getInvoiceById()**](InvoiceApi.md#getinvoicebyid-function) | **GET** /v2/invoices/{invoice_id} | Get invoice by invoice id |
-| [**getInvoices()**](InvoiceApi.md#getinvoices-function) | **GET** /v2/invoices | Get all Invoices |
-| [**expireInvoice()**](InvoiceApi.md#expireinvoice-function) | **POST** /invoices/{invoice_id}/expire! | Manually expire an invoice |
+| [**createInvoice()**](Invoice.md#createinvoice-function) | **POST** /v2/invoices/ | Create an invoice |
+| [**getInvoiceById()**](Invoice.md#getinvoicebyid-function) | **GET** /v2/invoices/{invoice_id} | Get invoice by invoice id |
+| [**getInvoices()**](Invoice.md#getinvoices-function) | **GET** /v2/invoices | Get all Invoices |
+| [**expireInvoice()**](Invoice.md#expireinvoice-function) | **POST** /invoices/{invoice_id}/expire! | Manually expire an invoice |
 
 
 ## `createInvoice()` Function

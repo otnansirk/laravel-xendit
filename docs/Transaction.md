@@ -14,8 +14,8 @@ All URIs are relative to https://api.xendit.co, except if the operation defines 
 
 | Method | HTTP request | Description |
 | ------------- | ------------- | ------------- |
-| [**getTransactionByID()**](TransactionApi.md#gettransactionbyid-function) | **GET** /transactions/{id} | Get a transaction based on its id |
-| [**getAllTransactions()**](TransactionApi.md#getalltransactions-function) | **GET** /transactions | Get a list of transactions |
+| [**getTransactionByID()**](Transaction.md#gettransactionbyid-function) | **GET** /transactions/{id} | Get a transaction based on its id |
+| [**getAllTransactions()**](Transaction.md#getalltransactions-function) | **GET** /transactions | Get a list of transactions |
 
 
 ## `getTransactionByID()` Function

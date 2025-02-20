@@ -14,14 +14,14 @@ All URIs are relative to https://api.xendit.co, except if the operation defines 
 
 | Method | HTTP request | Description |
 | ------------- | ------------- | ------------- |
-| [**createPaymentRequest()**](PaymentRequestApi.md#createpaymentrequest-function) | **POST** /payment_requests | Create Payment Request |
-| [**getPaymentRequestByID()**](PaymentRequestApi.md#getpaymentrequestbyid-function) | **GET** /payment_requests/{paymentRequestId} | Get payment request by ID |
-| [**getPaymentRequestCaptures()**](PaymentRequestApi.md#getpaymentrequestcaptures-function) | **GET** /payment_requests/{paymentRequestId}/captures | Get Payment Request Capture |
-| [**getAllPaymentRequests()**](PaymentRequestApi.md#getallpaymentrequests-function) | **GET** /payment_requests | Get all payment requests by filter |
-| [**capturePaymentRequest()**](PaymentRequestApi.md#capturepaymentrequest-function) | **POST** /payment_requests/{paymentRequestId}/captures | Payment Request Capture |
-| [**authorizePaymentRequest()**](PaymentRequestApi.md#authorizepaymentrequest-function) | **POST** /payment_requests/{paymentRequestId}/auth | Payment Request Authorize |
-| [**resendPaymentRequestAuth()**](PaymentRequestApi.md#resendpaymentrequestauth-function) | **POST** /payment_requests/{paymentRequestId}/auth/resend | Payment Request Resend Auth |
-| [**simulatePaymentRequestPayment()**](PaymentRequestApi.md#simulatepaymentrequestpayment-function) | **POST** /payment_requests/{paymentRequestId}/payments/simulate | Payment Request Simulate Payment |
+| [**createPaymentRequest()**](PaymentRequest.md#createpaymentrequest-function) | **POST** /payment_requests | Create Payment Request |
+| [**getPaymentRequestByID()**](PaymentRequest.md#getpaymentrequestbyid-function) | **GET** /payment_requests/{paymentRequestId} | Get payment request by ID |
+| [**getPaymentRequestCaptures()**](PaymentRequest.md#getpaymentrequestcaptures-function) | **GET** /payment_requests/{paymentRequestId}/captures | Get Payment Request Capture |
+| [**getAllPaymentRequests()**](PaymentRequest.md#getallpaymentrequests-function) | **GET** /payment_requests | Get all payment requests by filter |
+| [**capturePaymentRequest()**](PaymentRequest.md#capturepaymentrequest-function) | **POST** /payment_requests/{paymentRequestId}/captures | Payment Request Capture |
+| [**authorizePaymentRequest()**](PaymentRequest.md#authorizepaymentrequest-function) | **POST** /payment_requests/{paymentRequestId}/auth | Payment Request Authorize |
+| [**resendPaymentRequestAuth()**](PaymentRequest.md#resendpaymentrequestauth-function) | **POST** /payment_requests/{paymentRequestId}/auth/resend | Payment Request Resend Auth |
+| [**simulatePaymentRequestPayment()**](PaymentRequest.md#simulatepaymentrequestpayment-function) | **POST** /payment_requests/{paymentRequestId}/payments/simulate | Payment Request Simulate Payment |
 
 
 ## `createPaymentRequest()` Function

@@ -14,11 +14,11 @@ All URIs are relative to https://api.xendit.co, except if the operation defines 
 
 | Method | HTTP request | Description |
 | ------------- | ------------- | ------------- |
-| [**createPayout()**](PayoutApi.md#createpayout-function) | **POST** /v2/payouts | API to send money at scale to bank accounts &amp; eWallets |
-| [**getPayoutById()**](PayoutApi.md#getpayoutbyid-function) | **GET** /v2/payouts/{id} | API to fetch the current status, or details of the payout |
-| [**getPayoutChannels()**](PayoutApi.md#getpayoutchannels-function) | **GET** /payouts_channels | API providing the current list of banks and e-wallets we support for payouts for both regions |
-| [**getPayouts()**](PayoutApi.md#getpayouts-function) | **GET** /v2/payouts | API to retrieve all matching payouts with reference ID |
-| [**cancelPayout()**](PayoutApi.md#cancelpayout-function) | **POST** /v2/payouts/{id}/cancel | API to cancel requested payouts that have not yet been sent to partner banks and e-wallets. Cancellation is possible if the payout has not been sent out via our partner and when payout status is ACCEPTED. |
+| [**createPayout()**](Payout.md#createpayout-function) | **POST** /v2/payouts | API to send money at scale to bank accounts &amp; eWallets |
+| [**getPayoutById()**](Payout.md#getpayoutbyid-function) | **GET** /v2/payouts/{id} | API to fetch the current status, or details of the payout |
+| [**getPayoutChannels()**](Payout.md#getpayoutchannels-function) | **GET** /payouts_channels | API providing the current list of banks and e-wallets we support for payouts for both regions |
+| [**getPayouts()**](Payout.md#getpayouts-function) | **GET** /v2/payouts | API to retrieve all matching payouts with reference ID |
+| [**cancelPayout()**](Payout.md#cancelpayout-function) | **POST** /v2/payouts/{id}/cancel | API to cancel requested payouts that have not yet been sent to partner banks and e-wallets. Cancellation is possible if the payout has not been sent out via our partner and when payout status is ACCEPTED. |
 
 
 ## `createPayout()` Function

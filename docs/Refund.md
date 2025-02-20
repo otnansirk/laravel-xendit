@@ -14,10 +14,10 @@ All URIs are relative to https://api.xendit.co, except if the operation defines 
 
 | Method | HTTP request | Description |
 | ------------- | ------------- | ------------- |
-| [**createRefund()**](RefundApi.md#createrefund-function) | **POST** /refunds |  |
-| [**getRefund()**](RefundApi.md#getrefund-function) | **GET** /refunds/{refundID} |  |
-| [**getAllRefunds()**](RefundApi.md#getallrefunds-function) | **GET** /refunds |  |
-| [**cancelRefund()**](RefundApi.md#cancelrefund-function) | **POST** /refunds/{refundID}/cancel |  |
+| [**createRefund()**](Refund.md#createrefund-function) | **POST** /refunds |  |
+| [**getRefund()**](Refund.md#getrefund-function) | **GET** /refunds/{refundID} |  |
+| [**getAllRefunds()**](Refund.md#getallrefunds-function) | **GET** /refunds |  |
+| [**cancelRefund()**](Refund.md#cancelrefund-function) | **POST** /refunds/{refundID}/cancel |  |
 
 
 ## `createRefund()` Function
